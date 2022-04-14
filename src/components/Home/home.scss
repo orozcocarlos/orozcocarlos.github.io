@@ -1,0 +1,110 @@
+@import "../../global.scss";
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  min-height: calc(100vh - 6.5rem);
+  height: 100vh;
+
+  .image {
+    flex: 1 1 42rem;
+    text-align: center;
+
+    img {
+      height: 50rem;
+      width: 50rem;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+  }
+
+  .content {
+    .share {
+      text-align: center;
+
+      a {
+  
+        text-decoration: none;
+   
+
+        .fa-user {
+          font-size: 3rem;
+          display: inline-block;
+          justify-content: center;
+          align-items: center;
+          margin: 5px;
+          text-decoration: none;
+          color: #18d26e;
+
+       
+        }
+      }
+    }
+    flex: 1 1 42rem;
+
+    h3 {
+      font-size: 10rem;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 3rem;
+      padding-bottom: 0.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    span {
+      font-size: 3rem;
+      color: $crimson;
+      padding: 0.5rem 0;
+    }
+    .ityped-cursor {
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    p {
+      font-size: 2rem;
+      padding: 1rem 0;
+      line-height: 2;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      border-radius: 5rem;
+      background: #18d26e;
+      padding: 0.7rem;
+      font-size: 1.7rem;
+      padding-left: 2rem;
+    }
+
+    .btn .fa-user {
+      height: 4rem;
+      width: 4rem;
+      line-height: 4rem;
+      font-size: 1.7rem;
+      text-align: center;
+      background: #fff;
+      color: #18d26e;
+      border-radius: 50%;
+      margin-left: 1rem;
+      -webkit-transition: 0.2s linear;
+      transition: 0.2s linear;
+    }
+
+    .btn:hover .fa-user {
+      margin-left: 2rem;
+    }
+  }
+}

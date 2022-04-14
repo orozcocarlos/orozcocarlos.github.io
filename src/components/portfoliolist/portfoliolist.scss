@@ -1,0 +1,14 @@
+.portfoliolist {
+  font-size: 10px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 12px;
+  cursor: pointer;
+  &.active {
+    background-color: crimson;
+    color: white;
+  }
+  @media (max-width: 450px) {
+    font-size: 10px;
+  }
+}

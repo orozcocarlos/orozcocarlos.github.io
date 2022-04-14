@@ -1,0 +1,118 @@
+@import "../../global.scss";
+.contacto {
+  .contact {
+    .row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      .info-container {
+        width: 40rem;
+
+        h1 {
+          font-size: 3rem;
+          text-transform: uppercase;
+          padding-bottom: 1rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+          line-height: 2;
+          padding: 1rem 0;
+        }
+
+        .box-container {
+          padding: 2rem 0;
+
+          .box {
+            display: flex;
+            gap: 2rem;
+            padding: 1rem 0;
+
+            i {
+              font-size: 3rem;
+              color: $crimson;
+              .fa-user {
+                font-size: 5rem;
+              }
+            }
+            .info {
+              .sito {
+                text-decoration: none;
+                color: $light-color;
+              }
+            }
+
+            h3 {
+              font-size: 2rem;
+            }
+          }
+        }
+
+        .share {
+          a {
+
+            .fa-user {
+              font-size: 3rem;
+              display: inline-block;
+              justify-content: center;
+              align-items: center;
+              margin: 5px;
+              color: #18d26e;
+
+            }
+
+         
+          }
+        }
+      }
+
+      form {
+        flex: 1 1 42rem;
+
+        p {
+          font-size: 25px;
+        }
+
+        .inputBox {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          input {
+            width: 49%;
+          }
+        }
+
+        .inputBox input,
+        textarea {
+          border-radius: 5rem;
+          padding: 1.2rem 1.8rem;
+          font-size: 1.6rem;
+          color: $white;
+          text-transform: none;
+          margin: 0.7rem 0;
+          background: $light-bg;
+        }
+
+        textarea {
+          width: 100%;
+          border-radius: 1rem;
+          resize: none;
+          height: 25rem;
+        }
+
+        .btn {
+          padding: 1rem 3rem;
+          cursor: pointer;
+
+          &:hover {
+            background: $white;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}
