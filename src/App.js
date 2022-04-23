@@ -15,7 +15,7 @@ function App() {
       background: darkMode ? "black" : "white",
       color: darkMode && "white",
     }}>
-    <Toggle/>
+    {/* <Toggle/> */}
      <Home/>
      <About/>
      <Portfolio/>

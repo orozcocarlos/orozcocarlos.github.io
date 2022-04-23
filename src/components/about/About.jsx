@@ -91,7 +91,7 @@ function About() {
 
           <div className="box">
             <h3>5+</h3>
-            <p>Cursos</p>
+            <p>Cursos y Capacitaciones</p>
           </div>
         </div>
       </div>

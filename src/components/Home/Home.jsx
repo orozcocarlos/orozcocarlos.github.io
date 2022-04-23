@@ -64,7 +64,7 @@ export default function Home() {
           <br />
           <div className="share">
             <a
-              href="https://www.linkedin.com/in/carlos-orozco-64892021/"
+              href="https://www.linkedin.com/in/carlosorozco6489/"
               target="_blank"
             >
               <LinkedIn className="fas fa-user" />{" "}
@@ -78,7 +78,7 @@ export default function Home() {
             >
               <YouTube className="fas fa-user" />{" "}
             </a>
-            <a href="https://github.com/corozco6489" target="_blank">
+            <a href="https://github.com/orozcocarlos" target="_blank">
               <GitHub className="fas fa-user" />{" "}
             </a>
           </div>

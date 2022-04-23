@@ -660,6 +660,16 @@ export const certificaciones = [
     date:"  2022",
     description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
   },
+  {
+    id: 1,
+    title: "Learn SQL Course",
+    img: "assets/images/certificados/18.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
    {
     id: 1,
     title: "Curso Hacking Wi-Fi",
@@ -701,5 +711,58 @@ export const certificaciones = [
     description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
   },
 
+  {
+    id: 1,
+    title: "Técnico en seguridad informática (análisis de riesgos)",
+    img: "assets/images/certificados/16.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+
+  {
+    id: 1,
+    title: "Seguridad Informática y Redes",
+    img: "assets/images/certificados/17.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+
+
+  {
+    id: 1,
+    title: "Principios básicos de Internet de las Cosas",
+    img: "assets/images/certificados/19.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+  {
+    id: 1,
+    title: "Técnico instalador de cableado estructurado",
+    img: "assets/images/certificados/20.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+  {
+    id: 1,
+    title: "Office Básico",
+    img: "assets/images/certificados/21.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
 
 ]
