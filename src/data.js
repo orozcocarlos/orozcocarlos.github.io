@@ -304,6 +304,13 @@ export const designPortfolio = [
     link: "https://github.com/corozco6489/miniprojects-python/blob/password-generator/calculator_cientific/Scientific_calculator.py",
     site: "https://github.com/corozco6489/miniprojects-python/blob/password-generator/calculator_cientific/Scientific_calculator.py",
   },
+  {
+    id: 5,
+    title: "Face Recognition ESP32CAM",
+    img: "assets/images/ESP32CAM.jpg",
+    link: "https://github.com/orozcocarlos/Reconocimiento-facial-esp32cam",
+    site: "https://github.com/orozcocarlos/Reconocimiento-facial-esp32cam",
+  },
 ];
 
 export const contentPortfolio = [
@@ -528,7 +535,7 @@ export const habilidades = [
   },
 ];
 
-export const certificaciones = [
+export const formacionprofesional = [
   {
     id: 1,
     title: "Talleres de redes y ciberseguridad",
@@ -539,16 +546,7 @@ export const certificaciones = [
     date:"  2021",
     description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
   },
-  {
-    id: 1,
-    title: "Habilidades blandas y derecho laboral",
-    img: "assets/images/certificados/1.jpg",
-    link: "https://github.com/corozco6489/thingslearned",
-    site: "https://corozco6489.github.io/thingslearned/",
-    by:"Admin",
-    date:"  2021",
-    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
-  },
+
 
   {
     id: 1,
@@ -590,16 +588,7 @@ export const certificaciones = [
     date:"  2022",
     description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
   },
-  {
-    id: 1,
-    title: "Disciplina en el trabajo",
-    img: "assets/images/certificados/5.jpg",
-    link: "https://github.com/corozco6489/thingslearned",
-    site: "https://corozco6489.github.io/thingslearned/",
-    by:"Admin",
-    date:"  2022",
-    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
-  },
+  
   {
     id: 1,
     title: "Competencias digitales para profesionales",
@@ -632,28 +621,44 @@ export const certificaciones = [
   },
   {
     id: 1,
-    title: "Liderazgo",
-    img: "assets/images/certificados/9.jpg",
+    title: "Automatización Industrial",
+    img: "assets/images/certificados/23.jpg",
     link: "https://github.com/corozco6489/thingslearned",
     site: "https://corozco6489.github.io/thingslearned/",
     by:"Admin",
     date:"  2022",
     description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
   },
-  {
-    id: 1,
-    title: "Productividad Personal",
-    img: "assets/images/certificados/10.jpg",
-    link: "https://github.com/corozco6489/thingslearned",
-    site: "https://corozco6489.github.io/thingslearned/",
-    by:"Admin",
-    date:"  2022",
-    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
-  },
+
+ 
+
+
+
   {
     id: 1,
     title: "Programación desde Cero (Python)",
     img: "assets/images/certificados/11.png",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+  {
+    id: 1,
+    title: "HTML Y CSS Básico",
+    img: "assets/images/certificados/24.png",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+
+  {
+    id: 1,
+    title: "HTML Y CSS Básico",
+    img: "assets/images/certificados/25.png",
     link: "https://github.com/corozco6489/thingslearned",
     site: "https://corozco6489.github.io/thingslearned/",
     by:"Admin",
@@ -764,5 +769,95 @@ export const certificaciones = [
     date:"  2022",
     description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
   },
+  {
+    id: 1,
+    title: "Workshop de desarrollo de Páginas Web con base en HTML, CSS y Javascrip",
+    img: "assets/images/certificados/24.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+
+
+
+
+]
+
+
+
+export const formacionpersonal = [
+ 
+  {
+    id: 1,
+    title: "Habilidades blandas y derecho laboral",
+    img: "assets/images/certificados/1.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2021",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+  // {
+  //   id: 1,
+  //   title: "Taller de Habilidades Sociales y Comunicación",
+  //   img: "assets/images/certificados/22.jpg",
+  //   link: "https://github.com/corozco6489/thingslearned",
+  //   site: "https://corozco6489.github.io/thingslearned/",
+  //   by:"Admin",
+  //   date:"  2022",
+  //   description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  // },
+
+
+
+ 
+ 
+  {
+    id: 1,
+    title: "Disciplina en el trabajo",
+    img: "assets/images/certificados/5.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+  {
+    id: 1,
+    title: "Competencias digitales para profesionales",
+    img: "assets/images/certificados/6.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+
+ 
+  {
+    id: 1,
+    title: "Liderazgo",
+    img: "assets/images/certificados/9.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+  {
+    id: 1,
+    title: "Productividad Personal",
+    img: "assets/images/certificados/10.jpg",
+    link: "https://github.com/corozco6489/thingslearned",
+    site: "https://corozco6489.github.io/thingslearned/",
+    by:"Admin",
+    date:"  2022",
+    description: " En colaboración con el Grupo de Afinidad Young Professionals de Sección Ecuador y las empresas Kp@8 y Avantech Latam.",
+  },
+
+  
+
 
 ]

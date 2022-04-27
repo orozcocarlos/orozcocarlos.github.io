@@ -3,6 +3,44 @@
 
     .blogs{
 
+
+   ul {
+      margin: 10px;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      
+      li {
+        font-size: 20px;
+        margin-right: 50px;
+        padding: 7px ;
+        border-radius: 12px;
+        cursor: pointer;
+        &.active {
+          background-color: #18d26e;
+          color: white;
+        
+
+        }
+        @media (max-width: 450px) {
+          font-size: 10px;
+          border-radius: 12px;
+          margin: 5px;
+          padding: 5px;
+           }
+       
+      }
+      @media (max-width: 450px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      
+
+         }
+    }
         .box-container{
           @include grid(31rem);
       

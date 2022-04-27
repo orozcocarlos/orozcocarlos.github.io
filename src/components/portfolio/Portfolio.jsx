@@ -20,23 +20,25 @@ import { useEffect } from "react";
 function Portfolio() {
 
 
-  const [selected, setSelected] = useState("featured")
+  const [selected, setSelected] = useState("design")
   const [data, setData] = useState([])
 
 
   const list = [  
-    {
-      id: "web",
-      title: "Web App",
-    },
+   
    
     {
       id: "design",
       title: "Python",
     },
+    
     {
       id: "content",
       title: "Matlab",
+    },
+    {
+      id: "web",
+      title: "Web App",
     },
     {
       id: "react",
@@ -47,23 +49,21 @@ function Portfolio() {
 
   useEffect(() => {
     switch (selected) {   
-      case "web":
-        setData(webPortfolio);
-        break;
-      case "mobile":
-        setData(mobilePortfolio);
-        break;
+           
       case "design":
         setData(designPortfolio);
         break;
       case "content":
         setData(contentPortfolio);
         break;
+      case "web":
+        setData(webPortfolio);
+        break;
       case "react":
         setData(reactPortfolio);
         break;
       default:
-        setData(webPortfolio);
+        setData(designPortfolio);
     }
   }, [selected]);
   return (
